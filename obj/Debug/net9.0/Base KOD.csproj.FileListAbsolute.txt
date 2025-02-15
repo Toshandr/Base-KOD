@@ -1,0 +1,17 @@
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\bin\Debug\net9.0\Base KOD.exe
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\bin\Debug\net9.0\Base KOD.deps.json
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\bin\Debug\net9.0\Base KOD.runtimeconfig.json
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\bin\Debug\net9.0\Base KOD.dll
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\bin\Debug\net9.0\Base KOD.pdb
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.AssemblyInfoInputs.cache
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.AssemblyInfo.cs
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.csproj.CoreCompileInputs.cache
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.dll
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\refint\Base KOD.dll
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.pdb
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.genruntimeconfig.cache
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\ref\Base KOD.dll
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.csproj.AssemblyReference.cache
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.csproj.Up2Date
