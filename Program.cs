@@ -14,10 +14,20 @@ public class Student{
     public string Name{get; set;}
     public int Points{get; set;}
 
-    public Student(int id, string name, int points){
-        ID = id;
+    public Student( string name, int points){
         Name = name;
         Points = points;
+    }
+
+    public void SetId(int id){
+
+    }
+
+
+
+    public override string ToString()
+    {
+        return $"|{ID}| {Name} {Points}";
     }
 
 }
@@ -41,15 +51,32 @@ class Program
             Console.WriteLine("0. Выйти");
             Console.WriteLine();
             Console.Write("Введите номер команды: ");
-            int firstChoice = Convert.ToInt32(Console.ReadLine());
+            string firstChoiceSTR = Console.ReadLine();
+            int firstChoice = 0;
+            try{
+                firstChoice = int.Parse(firstChoiceSTR);
+            }
+            catch(FormatException){
+                Console.WriteLine("Нет такой команды");
+            }
             switch (firstChoice){
                 case 0:
                     OpenClose = false;
                     break;
 
                 case 1:
+                var everyStudent = ReadAllFromRating();
+                    foreach(var stud in everyStudent){
+                        Console.WriteLine(stud);
+                    }
                     break;
                 case 2:
+                    Console.Write("Введите ФИО: ");
+                    string Fio = Console.ReadLine();
+                    Console.WriteLine("Введите баллы: ");
+                    int points = Convert.ToInt32(Console.ReadLine());
+                    Student newStudent = new Student(Fio, points); 
+                    AddToRating(newStudent);
                     break;
                 case 3:
                     break;
@@ -62,7 +89,7 @@ class Program
                     Console.WriteLine();
                     Console.WriteLine("Введите корректную команду");
                     Console.ResetColor();
-                    Console.WriteLine("Чтобы продолжить, нажмите лубую клавишу...");
+                    Console.WriteLine("Чтобы продолжить, нажмите любую клавишу...");
                     Console.ReadKey();
                     Console.Clear();
                     break;
@@ -72,6 +99,11 @@ class Program
 
     public void AddToRating(Student student){
         List<Student> sudents = ReadAllFromRating();
+
+        int LastId = sudents.Last().ID;
+
+        student.SetId(LastId + 1);
+
         sudents.Add(student);
 
         string serialStudents = JsonConvert.SerializeObject(sudents);
@@ -88,7 +120,6 @@ class Program
         Student StudForDel = sudents.FirstOrDefault(u => u.ID == id);
         if (StudForDel != null){
             sudents.Remove(StudForDel);
-
         }
     }
 

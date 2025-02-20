@@ -15,3 +15,4 @@ C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\ref\Base KOD.dll
 C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.csproj.AssemblyReference.cache
 C:\Users\MSI ThinGF63\RiderProjects\Base KOD\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.csproj.Up2Date
+C:\Users\MSI ThinGF63\RiderProjects\Base KOD\obj\Debug\net9.0\Base KOD.sourcelink.json
